@@ -143,6 +143,11 @@ print(months)
 print(weeks)
 print(one_content)
 
+# 访问元组元素
+print(seasons[2], seasons[3])
+print(months[0], months[3])
+print(weeks[0], weeks[1:3], weeks[-1])
+
 # 元组迭代
 print("元组迭代：")
 for i in seasons:
