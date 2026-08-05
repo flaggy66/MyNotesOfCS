@@ -147,7 +147,7 @@ zset的成员是唯一的,但分数(score)却可以重复。
 
 官方文档：[Commands | Docs (redis.io)](https://redis.io/docs/latest/commands/)。
 
-在[Redis数据类型](#Redis数据类型)中的介绍的命令将不再过多列举。
+在[[#Redis数据类型]]中的介绍的命令将不再过多列举。
 
 ### KEY（键）相关命令
 
@@ -291,7 +291,7 @@ Redis 发布订阅 (pub/sub) 是一种消息通信模式：发送者 (pub) 发�
 
 当有新消息通过 PUBLISH 命令发送给频道 channel1 时， 这个消息就会被发送给订阅它的三个客户端。
 
-![](.\images\发布订阅模式图解.jpg)
+![](./images/发布订阅模式图解.jpg)
 
 #### 常用命令
 
